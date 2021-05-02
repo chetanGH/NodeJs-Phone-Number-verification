@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  domain:'Lambda domain'
+  domain:'http://localhost:3000/dev'
 };
