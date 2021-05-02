@@ -1,0 +1,25 @@
+service: Node-OTP-Expiry
+
+frameworkVersion: "2"
+plugins:
+  - serverless-offline
+
+# Resources
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: dev
+
+
+functions:
+  app:
+    handler: app.handler
+    events:
+      - http:
+          path: /
+          method: ANY 
+          cors: true
+      - http: 
+          path: /{proxy+}
+          method: ANY
+          cors: true

@@ -4,6 +4,7 @@
  * Module dependencies.
  */
 
+// require('../model/connection')
 var app = require('../app');
 var debug = require('debug')('nodejs-phone-number-verification:server');
 var http = require('http');
