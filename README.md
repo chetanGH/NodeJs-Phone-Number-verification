@@ -1,6 +1,8 @@
 # NodeJs-Phone-Number-verification
 Nodejs-express api to validate the phone numbers
 
+### clone the repo
+
 # UI
 FrontEnd folder contains Angular UI code for verification of Signup and OTP verification and regenerate otp.
  ### Prerequisites
