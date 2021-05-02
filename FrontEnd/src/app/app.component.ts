@@ -12,7 +12,7 @@ import { environment } from 'src/environments/environment.prod';
 export class AppComponent {
   constructor(public http:HttpClient){}
   title = 'FrontEnd';
-  page:number = 2; //1->login 2->OTP 3->Signup,4-> Verified
+  page:number = 1; //1->login 2->OTP 3->Signup,4-> Verified
   phone:any = null;
   otp:number = null;
   flashMsg = null;
